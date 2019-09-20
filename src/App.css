@@ -2,18 +2,24 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+button .arrow {
+  font-size: 40px;
+  display: inline-block;
 }
-
+button {
+  display: inline-block;
+}
+.posts-container {
+  background-color: aquamarine;
+}
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 30px;
   color: white;
 }
 
